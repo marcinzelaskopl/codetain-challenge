@@ -1,0 +1,13 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  border: 5px solid black;
+    .logo {
+      margin-right: auto;
+    }
+    p {
+      margin-left: 10px;
+    }
+}
