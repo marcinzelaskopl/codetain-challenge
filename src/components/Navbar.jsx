@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import '../App.scss';
 import {
-    HashRouter,
-    Route,
     Link,
-    Switch,
 } from 'react-router-dom';
 
 class Navbar extends Component {
@@ -13,9 +10,9 @@ class Navbar extends Component {
             <div className={'grid-container'}>
                 <div className={'row'}>
                     <div className={'col-12 navbar'}>
-                        <p className={'logo'}>LOGO</p>
-                        <p>HOME</p>
-                        <p>STATUS</p>
+                        <p className={'logo'}>STAR WARS</p>
+                        <Link to='/'><p>HOME</p></Link>
+                        <Link to='/status'><p>STATUS</p></Link>
                     </div>
                 </div>
             </div>
