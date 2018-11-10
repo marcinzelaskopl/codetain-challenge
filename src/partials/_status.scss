@@ -1,5 +1,12 @@
 .status-holder {
-  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url("./img/back.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
     h3 {
       font-size: 50px;
     }
@@ -18,14 +25,9 @@
 }
 
 .lightsaber, .falcon {
-  margin-top: 30px;
   padding: 30px;
   border: 5px solid grey;
   border-radius: 50%;
-}
-
-.lightsaber {
-  padding: 50px;
 }
 
 .total {

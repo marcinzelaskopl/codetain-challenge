@@ -1,0 +1,56 @@
+@media (min-width: 400px) and (max-width: 1000px) {
+  .header {
+    height: 100vh;
+  }
+  .article {
+    height: 80vh;
+  }
+  .footer {
+    height: 30vh;
+    text-align: center;
+  }
+  .status-holder {
+    height: 150vh;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 1000px) {
+  .header {
+    font-size: 40px;
+    text-align: center;
+    height: 100vh;
+  }
+  .article {
+    height: 120vh;
+  }
+  .footer {
+    height: 30vh;
+    text-align: center;
+  }
+  .status-holder {
+    height: 150vh;
+  }
+}
+
+@media (min-width: 300px) and (min-height: 500px) and (max-width: 1000px) {
+  .header {
+    font-size: 40px;
+    text-align: center;
+    height: 100vh;
+  }
+  .article {
+    height: 140vh;
+  }
+  .footer {
+    height: 30vh;
+    text-align: center;
+  }
+  .status-holder {
+    height: 170vh;
+    font-size: 20px;
+      .lightsaber, .falcon {
+        padding: 20px;
+      }
+  }
+}
+

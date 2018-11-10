@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../App.scss';
-import Lightsaber from '../img/lightsaber.png';
-import Falcon from '../img/mfalcon.jpg';
+import Lightsaber from '../img/comiclightsaber.jpg';
+import Falcon from '../img/comicfalcon.jpg';
 
 
 class JediItems extends Component {
@@ -46,7 +46,7 @@ class JediItems extends Component {
                         borderColorLightsaber: 'grey',
                     })
                 }
-            }, 10000);
+            }, 3000);
         } catch(e) {
             console.log(e);
         }
